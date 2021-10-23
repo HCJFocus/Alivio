@@ -1,0 +1,344 @@
+@font-face {
+    font-family: Georgia;
+    src: url(../fonts/Georgia-Bold.woff);
+}
+@font-face {
+    font-family: Georgia;
+    src: url(../fonts/Georgia.woff);
+}
+@font-face {
+    font-family: Georgia;
+    src: url(../fonts/Lato-Medium.woff);
+}
+@font-face {
+    font-family: Georgia;
+    src: url(../fonts/Lato-Regular.woff);
+}
+@font-face {
+    font-family: Georgia;
+    src: url(../fonts/Lato-SemiboldItalic.woff);
+}
+.container{
+    padding-left: 275px;
+    padding-right: 275px;
+}
+header{
+    height: 70px;
+    padding-top: 19px;
+    border-bottom: 1px solid #D6D6D6;
+}
+.head-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list{
+    margin: 0;
+}
+.logo{
+    cursor: pointer;
+}
+ul>li{
+    font-family: Lato;
+    font-weight: 500;
+    display: inline;
+    margin-right: 72px;
+    font-size: 20px;
+}
+.sign{
+    display: flex;
+    align-items: center;
+}
+.sign-item{
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 20px;
+    margin-right: 35px;
+    font-family: Lato;
+    font-weight: 400;
+}
+.btn{
+    font-family: Lato;
+    font-weight: 400;
+    background-color: #01996D;
+    color: white;
+    font-size: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 50px;
+    padding-left: 50px;
+    transition: 0.5s all;
+    border-radius: 4px;
+}
+.btn:hover{
+    background-color: gray;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.about-container{
+    width: 430px;
+    padding-top: 175px;
+    height: 350px;
+}
+.about{
+    background-image: url(../img/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+}
+.about-title{
+    font-family: Georgia serif;
+    font-weight: bold;
+    color: #01996D;
+    font-size: 65px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.about-descr{
+    font-family: Lato;
+    font-size: 19px;
+    font-weight: 400;
+    color: #484848;
+    margin: 0;
+    margin-bottom: 60px;
+    line-height: 31px;
+}
+.info-low-title{
+    font-family: Lato;
+    font-weight: 600;
+    color: #424242;
+    font-size: 18px;
+    line-height: 37px;
+    margin: 0;
+}
+.info-title{
+    color: #01996D;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 65px;
+    margin: 0;
+    max-width: 452px;
+}
+.capabilities-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info-text{
+    font-family: Lato;
+    font-weight: 500;
+    color: #424242;
+    font-size: 16px;
+    padding-top: 45px;
+    max-width: 526px;
+    line-height: 30px;
+    margin: 0;
+}
+.capabilities{
+    padding-top: 150px;
+    margin-bottom: 51px;
+}
+.capabilities-items{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.card-personalize{
+    width: 390px;
+}
+.card-number{
+    font-family: Georgia serif;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(1, 153, 109, 0.2);
+    margin: 0;
+    font-size: 150px;
+    position: relative;
+    top: 60px;
+    right: 82px;
+}
+.card-title{
+    font-family: Georgia serif;
+    color: #000000;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 55px;
+}
+.card-image{
+    text-align: center;
+}
+.card-text{
+    font-family: Lato;
+    font-weight: 500;
+    color: #424242;
+    font-size: 20px;
+    line-height: 150%;
+    margin: 0;
+    margin-bottom: 60px;
+    max-width: 360px;
+}
+.write-text{
+    font-family: Lato;
+    font-weight: 500;
+    color: #424242;
+    font-size: 20px;
+    line-height: 150%;
+    margin: 0;
+    margin-bottom: 60px;
+    max-width: 375px;
+}
+.alivio-text{
+    font-family: Lato;
+    font-weight: 500;
+    color: #424242;
+    font-size: 20px;
+    line-height: 150%;
+    margin: 0;
+    margin-bottom: 60px;
+    max-width: 375px;
+}
+.screen-item{
+    position: relative;
+    top: 375px;
+    left: 206px;
+}
+.alivio-item{
+    border-radius: 12px;
+}
+.card-write{
+    padding-top: 300px;
+}
+.card-alivio{
+    padding-top: 60px;
+}
+.history{
+    background-color: #245852;
+    margin-bottom: 120px;
+}
+.history-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 175px;
+    padding-bottom: 175px;
+}
+.history-box{
+    padding-left: 295px;
+    padding-right: 200px;
+}
+.history-title{
+    font-family: Georgia serif;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 78px;
+    color: white;
+    margin: 0;
+}
+.history-subtitle{
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    line-height: 78px;
+    margin: 0;
+    margin-bottom: 35px;
+}
+.info-about-text{
+    font-family: Lato;
+    font-weight: 500;
+    color: #424242;
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 50px;
+    max-width: 345px;
+    line-height: 25px;
+}
+.product-title{
+    color: #01996D;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 65px;
+    max-width: 452px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.product-box{
+    display: flex;
+    justify-content: space-around;
+}
+.badge{
+    width: 296px;
+    height: 293px;
+    background-color: white;
+    border-radius: 3px;
+    text-align: center;
+    position: relative;
+    top: -225px;
+    box-shadow: 5px 10px 20px -5px #E5E5E5;
+}
+.badge-title{
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0;
+    line-height: 35px;
+    margin-bottom: 12px;
+}
+.badge-title::after{
+    content: "";
+    width: 105px;
+    height: 1px;
+    background-color: black;
+    margin: 0 auto;
+    display: block;
+}
+.duty-items{
+    margin: 0;
+}
+.duty-items>li{
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+}
+.contents-title{
+    margin: 0;
+    margin-bottom: 15px;
+}
+.name{
+    margin: 0;
+    margin-bottom: 20px;
+}
+.list-duty{
+    text-align: left;
+}
+.badge-item{
+    margin-bottom: 8px;
+}
+.footer{
+    background-color: #245852;
+}
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    padding-top: 95px;
+    padding-bottom: 90px;
+    line-height: 90px;
+}
+.logo-white{
+    width: 108px;
+    margin-bottom: 40px;
+}
+.link{
+    font-family: Lato;
+    font-size: 18px;
+    color: white;
+}
